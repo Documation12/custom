@@ -1954,8 +1954,4 @@ function library:AddToRegistry(Instance, Properties, IsHud)
                                  end
                               end)()
 
-                              for i,v in pairs(Tables) do
-                                 memorystats.restore(v)
-                              end
-
                               return library
